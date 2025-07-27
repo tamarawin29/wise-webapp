@@ -1,0 +1,10 @@
+{
+  "name": "wise-webapp",
+  "version": "1.0.0",
+  "description": "Full stack webapp summarizing Wise international transfers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {}
+}
