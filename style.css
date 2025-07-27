@@ -1,0 +1,68 @@
+/* Styling for the full stack Wise webapp */
+
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Hero section */
+header.hero {
+  background-color: #0f968d; /* teal background inspired by Wise branding */
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem 1.5rem;
+  min-height: 200px;
+}
+
+header.hero .hero-text h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+header.hero .hero-text p {
+  margin: 0.5rem 0 0;
+  font-size: 1rem;
+}
+
+/* Main content container */
+main {
+  padding: 2rem 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Section styling */
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  margin-top: 0;
+  color: #0f968d; /* teal shade inspired by Wise branding */
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+section ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+section ul li {
+  margin-bottom: 0.4rem;
+}
+
+/* Footer styling */
+footer {
+  background: #f5f5f5;
+  color: #666;
+  font-size: 0.8rem;
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
