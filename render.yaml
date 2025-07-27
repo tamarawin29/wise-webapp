@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: wise-webapp
+    env: node
+    plan: free
+    branch: main
+    rootDir: .
+    buildCommand: npm install
+    startCommand: node server.js
